@@ -105,7 +105,7 @@ export default function Edittraining(props) {
               onChange={(date) => handleDateChange(date)}
             />
             <KeyboardTimePicker
-              margin="normal"
+              //margin="normal"
               id="time-picker"
               label="Time"
               value={training.date}
