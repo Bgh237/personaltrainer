@@ -15,7 +15,7 @@ function App() {
           <Navigator />
           <Switch>
             <Route exact path="/" component={Clientlist} />
-            <Route path="/about" component={Traininglist} />
+            <Route path="/training" component={Traininglist} />
             <Route path="/calendar" component={Calendar} />
             <Route path="/charts" component={Exercisecharts} />
             <Route render={() => <h1>Page not found</h1>} />
