@@ -140,7 +140,11 @@ export default function Navigator() {
             </Link>{" "}
           </div>
           <div>
-            <Link className="nav-link" to="/about" onClick={handleDrawerClose}>
+            <Link
+              className="nav-link"
+              to="/training"
+              onClick={handleDrawerClose}
+            >
               Training Sessions
             </Link>{" "}
           </div>
